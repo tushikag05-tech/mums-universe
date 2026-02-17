@@ -15,7 +15,8 @@ modal.style.display = "none";
 // Enter Universe button
 enterBtn.addEventListener("click", () => {
     landing.style.display = "none";
-    universe.classList.remove("hidden");
+    universe.style.display = "block";
+
 });
 
 // Messages for each star
